@@ -1,0 +1,629 @@
+@charset "UTF-8";
+
+/* limited reset */
+html, body, div, section, article, aside, header, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* html5 display rule */
+address, article, aside, canvas, figcaption, figure, footer, header, nav, menu, nav, section {
+  display: block;
+}
+
+body {
+  font-family: arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  background: #9c9c9c;
+  background-image:url(../_images/background.jpg)
+}
+
+#pageContainer {
+  width: 800px;
+  margin: 30px auto 12px;
+  padding: 40px 50px 0;
+  background: #fff;
+  box-shadow: 0px 0px 4px 4px rgba(40, 40, 40, .25);
+}
+
+
+/* Header */
+
+#logo {
+  float: left;
+  margin-bottom: 30px;
+}
+
+#headerImage {
+  float: right;
+}
+
+
+/* Navigation */
+
+#mainNav ul {
+  width: 900px;
+  height: 35px;
+  clear: both;
+  margin: 40px -50px;
+  padding-top: 13px;
+  text-align: center;
+  list-style: none;
+  background: #d20b43;
+}
+
+#mainNav ul li {
+  display: inline-block;
+  font-size: .9em;
+}
+
+#mainNav ul li a {
+  padding: 10px 8px 9px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#mainNav ul a:hover, .currentPage {
+  background: #aa0332;
+}
+
+
+/* General */
+
+a {
+  color: #d20b43;
+}
+
+a:hover {
+  color: #888;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+h1 {
+  margin-bottom: .2em;
+  margin-top: -.2em;
+  font-size: 2em;
+}
+
+h1.floatLeft {
+  float: left;
+}
+
+h2 {
+  margin-bottom: .2em;
+  margin-top: 1em;
+  font-size: 1.3em;
+  color: #d20b43;
+  line-height: 1.3;
+}
+
+h2.phone {
+  float: right;
+  font-size: 1.8em;
+  margin-top: 0;
+  color: #000;
+}
+
+h2.clearBoth {
+  clear: both;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+.intro {
+  clear: both;
+}
+
+.organizationName {
+  font-weight: bold;
+  font-size: 1.15em;
+}
+
+ul {
+  margin-left: 1em;
+}
+
+ul li:last-child {
+  margin-bottom: 1.1em;
+}
+
+hr {
+  margin: 30px 0;
+  border: 0;
+  border-bottom: 1px solid #999;
+}
+
+.sidebar hr {
+  margin: 15px 0 23px;
+  border: 0;
+  border-bottom: 1px solid #999;
+}
+
+article img {
+  float: left;
+  margin: 7px 30px 15px 0;
+}
+
+article img.laptop {
+  float: left;
+  margin: 7px 25px 0 0;
+}
+
+img.floatLeft {
+  position: relative;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+img.floatRight {
+  position: relative;
+  float: right;
+}
+
+img.floatNone {
+  float: none;
+  margin-bottom: 0;
+}
+
+.floatLeft {
+  float: left;
+  position: relative;
+}
+
+.clear {
+  clear: both;
+}
+
+img.moreBottomMargin {
+  margin-bottom: 20px;
+}
+
+img.bb2016 {
+  margin-bottom: 35px;
+  margin-top: 5px;
+}
+
+.lessTopMargin {
+  margin-top: -5px;
+}
+
+.readMore {
+  text-transform: uppercase;
+  font-size: .9em;
+  font-style: normal;
+}
+
+.photoAndCaption {
+  float: right;
+  width: 210px;
+  margin-left: 25px;
+  padding: 0;
+  margin-top: 0;
+}
+
+.photoAndCaption2 {
+  float: right;
+  width: 250px;
+  margin-left: 25px;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.camille {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.caption {
+  font-style: italic;
+  text-align: center;
+  font-size: .8em;
+  background-color: #d20b43;
+  color: white;
+  padding: 0 20px 12px; 
+}
+
+.caption2 {
+  font-style: italic;
+  font-size: .8em;
+  background-color: #d20b43;
+  color: white;
+  padding: 10px 20px 15px; 
+}
+
+
+/* Home page */
+
+div.sidebar {
+  width: 180px;
+  float: left;
+  margin-bottom: 40px;
+  padding: 30px 30px 22px;
+  text-align: center;
+  background-color: #ddd;
+  border: 3px dotted #777;
+  border-radius: 15px;
+}
+
+div.sidebar img {
+  margin: 0;
+}
+
+#content {
+  width: 500px;
+  float: right;
+  margin-bottom: 40px;
+}
+
+img.barkBid {
+  float: none;
+  margin-bottom: 5px;
+}
+
+.donateIntro {
+  margin-top: 20px;
+}
+
+.easyDonate {
+  font-weight: bold;
+  font-size: 1.15em;
+}
+
+.topRated {
+  font-weight: bold;
+}
+
+form#button,
+article div.donateButtons #btn1 img,
+article div.donateButtons #btn2 img,
+article div.donateButtons #btn3 img {
+  margin: 5px 20px 35px 0;
+  padding: 0;
+}
+
+article div.donateButtons #btn3 img {
+  margin-right: 0;
+}
+
+.sidebar {
+  width: 200px;
+  float: left;
+  vertical-align: top;
+  border-radius: 15px;
+}
+
+form {
+  float: left;
+  clear: left;
+  margin-bottom: 20px;
+  margin-top: -10px;
+}
+
+
+/* Calendar page */
+
+ul.calendar {
+  list-style: none;
+}
+
+span.date {
+  padding-left: 40px;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+
+/* Mission page */
+
+.mission {
+  margin-bottom: .6em;
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 1.4;
+}
+
+
+/* About Us page */
+
+div.boardAndStaff {
+  width: 200px;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  padding: 15px 35px;
+  background-color: #ddd;
+  border: 3px dotted #777;
+  border-radius: 15px;
+}
+
+.boardAndStaff h2 {
+  margin-bottom: .1em;
+  font-size: 1.2em;
+}
+
+.boardAndStaff ul {
+  margin-left: 0;
+  font-size: .85em;
+  list-style-type: none;
+}
+
+.title {
+  font-style: italic;
+}
+
+
+/* Donate page */
+
+#donatePage h2 {
+  margin: 0 0 .4em 0;
+}
+
+h2.donate {
+  padding-bottom: 30px;
+  padding-top: 20px;
+  font-size: 1.4em;
+}
+
+h3.donate {
+  color: #666;
+  font-weight: normal;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.donateCol1 {
+  float: left;
+  width: 220px;
+  height: 150px;
+  position: relative;
+  text-align: center;
+}
+
+.donateCol2 {
+  float: left;
+  width: 580px;
+  text-align: center;
+}
+
+button {
+  background: #d20b43;
+  color: #fff;
+  padding: 20px 25px;
+  margin: 10px;
+  border: none;
+  font-size: 1.1em;  
+  border-radius: 10px;
+}
+
+form#paypal {
+  float: none;
+  margin: 0;
+  display: inline-block;
+}
+
+form#bbTickets {
+  float: none;
+  margin-bottom: 50px;
+  display: block;
+  margin-top: 30px;
+}
+
+form#notAttending {
+  float: none;
+  margin-bottom: 50px;
+  display: block;
+}
+
+button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+button a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #aa0332;
+}
+
+hr.monetaryDonation {
+  clear: both;
+}
+
+img.donate {
+  float: none;
+  margin: 0;
+}
+
+.sponsorList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sponsorList h3 {
+  margin-top: 10px;
+}
+
+h2.saveDate {
+  padding-bottom: 30px;
+}
+
+div#wishList {
+  width: 395px;
+  float: right;
+  margin-bottom: 35px;
+  margin-left: 40px;
+  padding: 35px 35px 25px;
+  background-color: #ddd;
+  border: 3px dotted #777;
+  border-radius: 15px;
+}
+
+#wishList h2 {
+  font-size: 1.5em;
+}
+
+#wishList h3 {
+  margin-top: 1em;
+}
+
+#wishList ul {
+  margin-left: 0;
+  font-size: .85em;
+  list-style-type: none;
+}
+
+#wishList .col1 {
+  width: 175px;
+  float: left;
+}
+
+#wishList .col2 {
+  width: 190px;
+  float: right;
+}
+
+.col1 {
+  width: 270px;
+  float: left;
+}
+
+.col2 {
+  width: 471px;
+  float: right;
+}
+
+
+/* Bark and Bid page */
+
+img.joinUs {
+  margin-bottom: 10px;
+}
+
+aside.sponsors {
+  float: left;
+  margin: 20px 20px 40px 0;
+  padding-top: 7px;
+  border: 3px dotted #777;
+  border-radius: 15px;
+}
+
+div.barkBid {
+  width: 540px;
+  float: right;
+  margin-left: 0;
+}
+
+.barkBid img {
+  float: left;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.barkBid form {
+  margin-bottom: 30px;
+}
+
+p.conventionCenter {
+  margin-top: 65px;
+}
+
+
+/* Boarding page */
+
+.dogs,
+.cats {
+  float: left;
+  margin-right: 40px;
+}
+
+
+/* In The News page */
+
+div.newsletters {
+  width: 400px;
+  float: right;
+  margin: 15px 0 20px 40px;
+  padding: 20px 35px 15px;
+  background-color: #ddd;
+  border: 3px dotted #777;
+  border-radius: 15px;
+}
+
+.newsletters ul {
+  list-style: none;
+  font-size: .85em;
+  line-height: 1.8;
+}
+
+.newsletters h2 {
+  margin-bottom: .1em;
+  margin-top: 15px;
+  font-size: 1.2em;
+  color: #000;
+}
+
+.newsletters img {
+  margin: 20px 40px 20px 0;
+}
+
+p.storyIntro {
+  font-style: italic;
+}
+
+span.readMore {
+  font-style: normal;
+}
+
+
+/* Footer */
+
+#mainFooter {
+  width: 900px;
+  height: 35px;
+  clear: both;
+  margin: 40px -50px 0;
+  padding-top: 16px;
+  font-size: .9em;
+  color: #fff;
+  text-align: center;
+  background: #d20b43;
+}
+
+#mainFooter a {
+  color: #fff;
+}
+
+#mainFooter a:hover {
+  color: #000;
+}
+
+.legalAndCredit {
+  padding-top: 3px;
+  font-size: .9em;
+  color: #000;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.legalAndCredit a {
+  color: #000;
+}
+
+.linkedin {
+	margin-left: 8px;
+	margin-bottom: -3px;
+	
+}
