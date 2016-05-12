@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic);
 
 /* limited reset */
 html, body, div, section, article, aside, header, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
@@ -13,7 +13,7 @@ address, article, aside, canvas, figcaption, figure, footer, header, nav, menu, 
 }
 
 body {
-  font-family: arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1em;
   line-height: 1.5;
   background: #9c9c9c;
@@ -243,13 +243,38 @@ img.bb2016 {
 
 /* Home page */
 
+.hiring {
+  width: 184px;
+  padding: 0 30px;
+  line-height: 60px;
+  margin-bottom: -5px;
+  height: 60px;
+  background-color: #244b82;
+  border-radius: 15px 15px 0 0;
+  text-align: left;
+  color: #ddeafb;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.jobListing {
+  width: 180px;
+  float: left;
+  margin-bottom: 40px;
+  padding: 20px 30px 22px;
+  background-color: #fff;
+  border: 2px solid #375a8a;
+  border-top: none;
+  border-radius: 0 0 15px 15px;
+}
+
 div.sidebar {
+  background-color: #ddd;
   width: 180px;
   float: left;
   margin-bottom: 40px;
   padding: 30px 30px 22px;
   text-align: center;
-  background-color: #ddd;
   border: 3px dotted #777;
   border-radius: 15px;
 }
