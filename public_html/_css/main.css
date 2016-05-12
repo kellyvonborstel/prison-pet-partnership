@@ -246,13 +246,13 @@ img.bb2016 {
 .hiring {
   width: 184px;
   padding: 0 30px;
-  line-height: 60px;
+  line-height: 65px;
   margin-bottom: -5px;
   height: 60px;
-  background-color: #244b82;
+  background-color: #aaa;
   border-radius: 15px 15px 0 0;
   text-align: left;
-  color: #ddeafb;
+  color: #000;
   font-weight: 700;
   font-size: 1.5em;
 }
@@ -262,8 +262,8 @@ img.bb2016 {
   float: left;
   margin-bottom: 40px;
   padding: 20px 30px 22px;
-  background-color: #fff;
-  border: 2px solid #375a8a;
+  /*background-color: #fff;*/
+  border: 2px solid #aaa;
   border-top: none;
   border-radius: 0 0 15px 15px;
 }
