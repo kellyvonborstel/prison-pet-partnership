@@ -249,7 +249,7 @@ img.bb2016 {
   line-height: 65px;
   margin-bottom: -5px;
   height: 60px;
-  background-color: #aaa;
+  background-color: #ccc;
   border-radius: 15px 15px 0 0;
   text-align: left;
   color: #000;
@@ -263,7 +263,7 @@ img.bb2016 {
   margin-bottom: 40px;
   padding: 20px 30px 22px;
   /*background-color: #fff;*/
-  border: 2px solid #aaa;
+  border: 2px solid #ccc;
   border-top: none;
   border-radius: 0 0 15px 15px;
 }
