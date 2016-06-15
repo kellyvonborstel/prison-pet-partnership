@@ -3,4 +3,4 @@ AddHandler application/x-httpd-php5s .php
 
 AddType application/x-httpd-php .htm .html
 
-ErrorDocument 404 http://www.prisonpetpartnership.org/404page.htm
+ErrorDocument 404 http://www.prisonpetpartnership.org/404page.html
