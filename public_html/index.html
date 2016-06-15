@@ -1,104 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Prison Pet Partnership</title>
-    <meta name="description" content="Prison Pet Partnership is a non-profit organization located on the grounds of the Washington Corrections Center for Women in Gig Harbor. We rescue and train homeless animals to provide service dogs for persons with disabilities, and operate a boarding and grooming facility to provide vocational education for women inmates.">
-    <link href="_css/main.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body> 
-    <div id="pageContainer">
-      <header id="mainHeader" role="banner">
-        <a href="index.html"><img id="logo" src="_images/logo-ppp.gif" alt="Prison Pet Partnership"></a>
-        <img id="headerImage" src="_images/service-dogs.jpg" alt="Service Dogs">
-        <nav id="mainNav" role="navigation">
-          <ul>
-            <li><a class="currentPage" href="index.html">Home</a></li>
-            <li><a href="_html/mission.html">Mission</a></li>
-            <li><a href="_html/about.html">About Us</a></li>
-            <li><a href="_html/history.html">History</a></li>
-            <li><a href="_html/donate.html">Donate</a></li>
-            <li><a href="_html/board-groom.html">Boarding &amp; Grooming</a></li>
-            <li><a href="_html/dog.html">Getting A Dog</a></li>
-            <li><a href="_html/volunteer.html">Volunteer</a></li>
-            <li><a href="_html/news.html">In The News</a></li>
-            <li><a href="_html/contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
-      <main role="main">
-        <div id="content">
-          <article>
-          <p class="donateIntro"><span class="easyDonate">It’s easy to donate to Prison Pet Partnership.</span> Click one of the buttons below to donate online through PayPal or Network for Good (both accept credit cards) or download a mail-in donation form.</p>
-          <div class="donateButtons">
-            <form id="button" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-              <input type="hidden" name="cmd" value="_s-xclick">
-              <input type="hidden" name="hosted_button_id" value="AGYM3KDJBLDLN">
-              <input type="image" src="_images/paypal.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-            </form>
-            <a id="btn2" href="https://www.networkforgood.org/donation/ExpressDonation.aspx?ORGID2=911487894&vlrStratCode=LSOSspmirzmIy0uVsS2dLuvVc%2fc9hIQ4mLyDmKa160CZT%2fy5EawOsRGKVJawUWam" target="_blank"><img src="_images/network-for-good.gif" alt="Donate Now Through Network for Good"></a>
-            <a id="btn3" href="_pdf/donation-form.pdf"><img src="_images/donate-form.gif" alt="donate form"></a>
+<head>
+  <meta charset="UTF-8">
+  <title>Prison Pet Partnership</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Prison Pet Partnership is a non-profit organization located on the grounds of the Washington Corrections Center for Women in Gig Harbor. We rescue and train homeless animals to provide service dogs for persons with disabilities, and operate a boarding and grooming facility to provide vocational education for women inmates.">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="page-wrapper">
+    <header>
+      <a href="index.html" title="Prison Pet Partnership"><img class="logo-icon" src="images/logo-icon.svg" alt="Prison Pet Partnership"><img class="logo" src="images/logo.svg" alt="Prison Pet Partnership"></a>
+      <div class="header-image"></div>
+      <a class="nav-menu-open"><img class="menu-icon" src="images/menu.svg" alt="Navigation Menu">Menu</a>
+      <h1>Prison Pet Partnership</h1>
+    </header>
+    <nav class="nav-menu">
+      <a class="nav-menu-close"><img class="menu-icon" src="images/menu.svg" alt="Navigation Menu">Close Menu</a>
+      <ul class="nav-items">
+        <li class="nav-item"><a href="index.html" class="nav-link current-page">Home</a></li>
+        <li class="nav-item"><a href="html/about.html" class="nav-link">About Us</a></li>
+        <li class="nav-item"><a href="html/mission.html" class="nav-link">Mission</a></li>
+        <li class="nav-item"><a href="html/history.html" class="nav-link">History</a></li>
+        <li class="nav-item"><a href="html/news.html" class="nav-link">In the News</a></li>
+        <li class="nav-item"><a href="html/donate.html" class="nav-link">Donate</a></li>
+        <li class="nav-item"><a href="html/volunteer.html" class="nav-link">Volunteer</a></li>
+        <li class="nav-item"><a href="html/training.html" class="nav-link">Dog Training Program</a></li>
+        <li class="nav-item"><a href="html/board-groom.html" class="nav-link">Boarding &amp; Grooming</a></li>
+        <li class="nav-item"><a href="html/contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>    
+    <div class="content-wrapper">
+      <section class="sidebar">
+        <aside class="sidebar-links">
+          <a class="sidebar-link js-donate-home" href="html/donate.html"><img class="sidebar-img donate js-donate-home" src="images/donate-blue.svg" alt="Make a Donation">Make a Donation</a>
+          <a class="sidebar-link js-boarding-home" href="pdf/boarding-app.pdf" target="_blank"><img class="sidebar-img boarding js-boarding-home" src="images/boarding-blue.svg" alt="Download Boarding Application"><span class="download">Download<br></span>Boarding Application</a>
+          <a class="sidebar-link js-calendar-home" href="html/calendar.html"><img class="sidebar-img calendar js-calendar-home" src="images/calendar-blue.svg" alt="View Calendar">View Calendar</a>
+          <a class="sidebar-link js-facebook-home" href="https://www.facebook.com/pages/Prison-Pet-Partnership/51754541454" target="_blank"><img class="sidebar-img facebook js-facebook-home" src="images/facebook-blue.svg" alt="Find us on Facebook">Find us on Facebook</a>
+          <a class="sidebar-link js-twitter-home" href="https://twitter.com/prisonpetwa" target="_blank"><img class="sidebar-img twitter js-twitter-home" src="images/twitter-blue.svg" alt="Follow us on Twitter">Follow us on Twitter</a>
+        </aside>
+        <div class="hiring-wrapper">
+          <aside class="hiring">
+            <h3>We are Hiring</h3>
+            <p>Prison Pet Partnership currently has openings for a <a href="pdf/grooming-instructor.pdf" target="_blank">Grooming Instructor</a> and a <a href="pdf/dog-program-assistant.pdf" target="_blank">Dog Program Assistant</a>.</p>
+          </aside>
+        </div>
+      </section>
+      <section class="main-content">
+        <p><strong>Prison Pet Partnership</strong> is a non-profit organization located on the grounds of the Washington Corrections Center for Women in Gig Harbor. We rescue and train homeless animals to provide service dogs for persons with disabilities and operate a boarding and grooming facility to provide vocational education for women inmates. Our program benefits all involved — the animals who are given the chance to lead lives of service, the inmates who learn valuable skills so they may find gainful employment upon release, and the individuals with disabilities who receive well-trained dogs to help increase their level of independence.</p>
+        <p>If you would like to help, please consider becoming a <a href="html/volunteer.html">volunteer</a>, making a <a href="html/donate.html">donation</a>, or adopting one of our <a href="https://www.petfinder.com/pet-search?shelterid=WA243" target="_blank">Paroled Pets</a>.</p>
+        <hr>
+        <article class="bark-bid">
+          <div class="center">
+            <img class="article-img bark-bid" src="images/bark-bid-2016-small.jpg" alt="Bark and Bid">
+            <h3>13th Annual Bark&nbsp;and&nbsp;Bid</h3>
+            <p class="article">Thank you to our many sponsors and all who joined us for Bark and Bid 2016. We appreciate your support!</p>
+            <a class="article-link" href="html/donate.html">read more</a>
           </div>
-          <hr class="intro">
-          <p class="intro"><span class="organizationName">Prison Pet Partnership</span> is a non-profit organization located on the grounds of the Washington Corrections Center for Women in Gig Harbor, WA. We rescue and train homeless animals to provide service dogs for persons with disabilities and operate a boarding and grooming facility to provide vocational education for women inmates. Our program benefits all involved — the animals who are given the chance to lead lives of service, the inmates who learn valuable skills so they may find gainful employment upon release, and the individuals with disabilities who receive well-trained dogs to help increase their level of independence.</p>
-          <p>If you would like to help, please consider becoming a <a href="_html/volunteer.html">volunteer</a>, making a <a href="_html/donate.html">donation</a>, or adopting one of our <a href="https://www.petfinder.com/pet-search?shelterid=WA243" target="_blank">Paroled Pets</a>.</p>      
-          <hr>
-          <a href="_html/bark-bid.html"><img class="bb2016" src="_images/bark-bid-2016.jpg" alt="Bark and Bid 2016"></a>
-          <hr class="intro">
-          <!-- <div class="photoAndCaption">
-            <img class="camille" src="_images/paisley.jpg" width="210" height="250" alt="Paisley">
-            <p class="caption">Photo credit Kathy Pratt</p>
-          </div> -->
-          <h2>Exciting News!!! PPP’s Dog Training Program<br>is Expanding</h2>
-          <p>Check back for news about our expansion.</p>  
-          <!-- <p><strong>Tuesday, April 12, 2016 at 7:00pm</strong><br>
-          Pierce County’s University Place Library Branch on Bridgeport<br>
-          3609 Market Place W #100, University Place, WA  98466</p> -->
-          <!-- <p>RSVP to Jill in PPP’s Development Office by calling 253-858-4200 x82596 or email her <a href="mailto:javoelker@doc1.wa.gov">javoelker@doc1.wa.gov</a> so we can plan for the number of people attending.</p> -->
-          <hr class="intro">
-          <div class="photoAndCaption2">
-          	<img class="camille" src="_images/camille.jpg" width="250" height="235" alt="Camille">
-          	<p class="caption2">Former offender, PPP groomer and trainer Camille and her cat Luna leave Prison Pet Partnership to start a new chapter in life!</p>
+        </article>
+        <hr>
+        <article class="dog-training">
+          <div class="center">
+            <img class="article-img dog-training" src="images/dog-training-small.jpg" alt="Dog Training Program">
+            <h3>Our Dog Training Program is&nbsp;Expanding</h3>
+            <p class="article">In addition training service dogs, we are expanding our program to include basic obedience and AKC Canine Good Citizenship certification. This will allow us to rescue and train more dogs from shelters and provide training to privately-owned dogs through our Board and Train program.</p>
+            <a class="article-link" href="html/training.html">read more</a>
           </div>
-    			<h2>Camille Begins a New Chapter in Life</h2>
-    			<p>This month we shed happy tears as we said goodbye to Camille, a trainer and experienced groomer.  With the tears, there were lots of hugs, smiles and waves as she walked out the front door of WCCW, released to join her husband and son. Camille left with her adopted PPP cat, Luna, who will help her with the transition back into life outside of prison.</p>  
-    			<p>Camille will be missed by her fellow PPP workers and all the dogs who were her regular groom clients. We, however will look forward to hearing about her next chapter and how the skills she gained while at PPP will help her find work quickly in the pet care industry. Without the generosity of many donors, the work we do to enrich the lives of inmates, homeless animals and the community through the human-animal bond and stories like this would not be possible.</p>
-          </article>
-        </div>
-      </main>
-      <aside role="complementary">
-        <h2 class="hiring">We are Hiring!</h2>
-        <div class="jobListing">
-          <p>Prison Pet Partnership currently has two job openings — <strong>Grooming Instructor</strong> and <strong>Dog Program Assistant</strong>. To learn more, please view the job descriptions below.</p>
-          <h4><a href="_pdf/grooming-instructor.pdf">Grooming Instructor</a></h4>
-          <h4><a href="_pdf/dog-program-assistant.pdf">Dog Program Assistant</a></h4>
-        </div>
-        <div class="sidebar">
-          <a href="_pdf/boarding-app.pdf"><img src="_images/boarding-application.gif" alt="download boarding application"></a>
-          <hr>
-          <a href="_html/calendar.html"><img src="_images/view-calendar.gif" alt="view calendar"></a>
-          <hr>
-          <a href="https://www.facebook.com/pages/Prison-Pet-Partnership/51754541454" target="_blank"><img src="_images/facebook.gif" alt="find us on facebook"></a>
-          <hr>
-          <a href="https://twitter.com/prisonpetwa" target="_blank"><img src="_images/twitter.gif" alt="follow us on twitter"></a>
-          <hr>
-          <a href="http://www.assistancedogsinternational.org" target="_blank"><img src="_images/adi.jpg" alt="Assistance Dogs International"></a>
-          <hr>
-          <a href="http://www.ibpsa.com" target="_blank"><img src="_images/ibpsa.jpg" alt="International Boarding &amp; Pet Services Association"></a>      
-        </div>
-        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-          <input type="hidden" name="cmd" value="_s-xclick">
-          <input type="hidden" name="hosted_button_id" value="3B9BHPNCH7U4L">
-          <input type="image" src="_images/calendar-sale-2016.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        </form>
-      </aside>
-      <footer id="mainFooter" role="contentinfo">
-        <p>9601 Bujacich Road, Gig Harbor, WA 98332 &nbsp; &middot; &nbsp; phone: (253) 858-4240 &nbsp; &middot; &nbsp; email: <a href="mailto:info@prisonpetpartnership.org">info@prisonpetpartnership.org</a></p>
-      </footer>
+        </article>
+        <hr>
+        <article class="camille">
+          <div class="center">
+            <img class="article-img camille" src="images/camille-small.jpg" alt="Camille">
+            <h3>Camille Begins a New Chapter&nbsp;in&nbsp;Life</h3>
+            <p class="article">We shed happy tears as we said goodbye to former offender Camille, a trainer and experienced groomer. Camille left Prison Pet Partnership with her adopted cat, Luna, who will help her transition back into life outside prison.</p>
+            <a class="article-link" href="html/news.html">read more</a>
+          </div>
+        </article>
+        <hr>
+        <a title="Assistance Dogs International" href="http://www.assistancedogsinternational.org/" target="_blank"><img class="adi" src="images/adi-logo.png" alt="Assistance Dogs International"></a>
+        <a title="International Boarding and Pet Services Association" href="http://www.ibpsa.com/" target="_blank"><img class="ibpsa" src="images/ibpsa-logo.svg" alt="International Boarding and Pet Services Association"></a>
+      </section>
     </div>
-    <p class="legalAndCredit">Copyright &copy; <?php echo date('Y'); ?> Prison Pet Partnership &nbsp; | &nbsp; Website by <a href="mailto:kellyvonborstel@gmail.com?subject=Website">Kelly von Borstel</a><a href="https://linkedin.com/in/kellyvonborstel" target="_blank"><img class="linkedin" src="_images/linkedin.gif" alt="Kelly von Borstel LinkedIn"></a></p>   
-  </body>
+    <footer>
+      <address>
+        <a class="address" href="https://www.google.com/maps/place/9601+Bujacich+Rd+NW,+Gig+Harbor,+WA+98332/@47.3456692,-122.6166539,17z/data=!3m1!4b1!4m5!3m4!1s0x54904d5884d6f1b7:0xb3128a7174c34042!8m2!3d47.3456692!4d-122.6144652" target="_blank">9601 Bujacich Road, Gig Harbor, WA 98332</a>
+        <a class="address" href="tel:+12538584240">phone: (253) 858-4240</a>
+        <a class="address" href="mailto:info@prisonpetpartnership.org">email: info@prisonpetpartnership.org</a>
+        <div class="social">
+          <a href="https://www.facebook.com/pages/Prison-Pet-Partnership/51754541454" target="_blank"><img class="facebook js-facebook-footer-home" src="images/facebook-white.svg" alt="facebook"></a>
+          <a href="https://twitter.com/prisonpetwa" target="_blank"><img class="twitter js-twitter-footer-home" src="images/twitter-white.svg" alt="twitter"></a> 
+        </div>
+      </address>
+      <div class="copy-credit">
+        <p class="copyright">Copyright &copy; <?php echo date('Y'); ?> Prison Pet Partnership</p>
+        <p class="pipe">|</p>
+        <p class="credit">Website by <a href="mailto:kellyvonborstel@gmail.com?subject=Website">Kelly von Borstel</a><a href="https://linkedin.com/in/kellyvonborstel" target="_blank"><img class="linkedin js-linkedin-home" src="images/linkedin.svg" alt="Kelly von Borstel LinkedIn"></a></p>
+      </div>
+    </footer>
+  </div>
+  <div class="mask"></div>
+  <script src="lib/jquery.min.js"></script>
+  <script src="src/main.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-74783674-2', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
 </html>
