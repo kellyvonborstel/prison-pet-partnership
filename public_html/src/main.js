@@ -8,7 +8,7 @@ $(function() {
 
     if (windowWidth >= 870) {
       $(".hiring-wrapper").remove().insertBefore($(".sidebar-links"));
-      addListeners();
+      addImageHandlers();
     }
     else {
       $(".sidebar-links").remove().insertBefore($(".hiring-wrapper"));
