@@ -2,6 +2,19 @@ $(function() {
 
   addImageHandlers();
 
+  // change order of sidebar items when window is resized
+  $(window).resize(function () {
+    var windowWidth = $(window).width();
+
+    if (windowWidth >= 870) {
+      $(".hiring-wrapper").remove().insertBefore($(".sidebar-links"));
+      addImageHandlers();
+    }
+    else {
+      $(".sidebar-links").remove().insertBefore($(".hiring-wrapper"));
+    }
+  }).trigger("resize");
+
   // slide menu for small screens
   $('.nav-menu-open').on('click', function(event) {
     event.preventDefault();
