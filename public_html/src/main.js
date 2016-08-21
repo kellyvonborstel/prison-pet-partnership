@@ -63,7 +63,7 @@ $(function() {
     imageHandler('.js-facebook-footer', '../images/facebook-red.svg', '../images/facebook-white.svg');
     imageHandler('.js-twitter-footer-home', 'images/twitter-red.svg', 'images/twitter-white.svg');
     imageHandler('.js-twitter-footer', '../images/twitter-red.svg', '../images/twitter-white.svg');
-    imageHandler('.js-linkedin-home', 'images/linkedin-dark.svg', 'images/linkedIn.svg');
-    imageHandler('.js-linkedin', '../images/linkedin-dark.svg', '../images/linkedIn.svg');
+    imageHandler('.js-linkedin-home', 'images/linkedin-dark.svg', 'images/linkedin.svg');
+    imageHandler('.js-linkedin', '../images/linkedin-dark.svg', '../images/linkedin.svg');
   }
 });
