@@ -7,11 +7,11 @@ $(function() {
     var windowWidth = $(window).width();
 
     if (windowWidth >= 870) {
-      $(".hiring-wrapper").remove().insertBefore($(".sidebar-links"));
+      $(".announcement-wrapper").remove().insertBefore($(".sidebar-links"));
       addImageHandlers();
     }
     else {
-      $(".sidebar-links").remove().insertBefore($(".hiring-wrapper"));
+      $(".sidebar-links").remove().insertBefore($(".announcement-wrapper"));
     }
   }).trigger("resize");
 

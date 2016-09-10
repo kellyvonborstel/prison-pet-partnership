@@ -524,9 +524,9 @@ h1 {
 }
 
 /*-------------------------------------*/
-/* SIDEBAR - HIRING */
+/* SIDEBAR - ANNOUNCEMENT */
 
-.hiring-wrapper {
+.announcement-wrapper {
   display: table;
   width: 100%;
   margin-bottom: 15px;
@@ -538,36 +538,36 @@ h1 {
   border-collapse: collapse;
 }
 
-.hiring {
+.announcement {
   margin: 25px;
   clear: both;
 }
 
-.hiring h3 {
+.announcement h3 {
   font-size: 1.4em;
   font-weight: 600;
   letter-spacing: 0;
   color: #fff;
 }
 
-.hiring p {
+.announcement p {
   font-size: .95em;
   line-height: 1.6;
 }
 
-.hiring a {
+.announcement a {
   font-weight: 400;
   color: #fff;
 }
 
 @media screen and (min-width: 870px) {
-  .hiring-wrapper {
+  .announcement-wrapper {
     margin-bottom: 30px;
   }
 }
 
 @media screen and (min-width: 1030px) {
-  .hiring a:hover {
+  .announcement a:hover {
     color: #c7dcbc;
   }
 }
