@@ -818,20 +818,20 @@ img.camille {
 
   .bark-bid {
     min-height: 220px;
-    padding-left: 330px;
-    background: url(../images/bark-bid-2016.jpg) left center;
+    padding-right: 330px;
+    background: url(../images/bark-bid-2016.jpg) right center;
   }
 
   .dog-training {
     min-height: 250px;
-    padding-right: 200px;
-    background: url(../images/dog-training.jpg) right center;
+    padding-left: 200px;
+    background: url(../images/dog-training.jpg) left center;
   }
 
   .camille {
     min-height: 220px;
-    padding-left: 285px;
-    background: url(../images/camille.jpg) left center;
+    padding-right: 285px;
+    background: url(../images/camille.jpg) right center;
   }
 }
 
@@ -1091,5 +1091,59 @@ p.thank-you {
     padding-left: 25px;
     vertical-align: middle;
     margin-bottom: 0;
+  }
+}
+
+/*-------------------------------------*/
+/* LYNCH CREEK FARM HOLIDAY WIDGET */
+
+div.fg-widget {
+  width: 290px;
+  border: 1px solid #9ba28f;
+  position: relative;
+  right: 0;
+  margin-bottom: 2em;
+  margin-right: 1.8em;
+  float: left;
+}
+
+div.fg-widget__body {
+    display: none;
+}
+
+.fg-widget div.fg-widget__stats {
+    margin: 15px 0 12px;
+}
+
+.fg-widget__footer a.fg-widget__button {
+    background: #d20b43;
+    border-color: #d20b43;
+    width: 84%;
+    max-width: 200px;
+    font-size: .8em;
+    letter-spacing: 1px;
+    padding: 10px 10px 11px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.fg-widget__footer a.fg-widget__button:hover {
+    background: #aa0332;
+}
+
+.fg-widget div.fg-widget__header {
+    background: #fff;
+    padding: 10px 0 5px;
+}
+
+@media screen and (min-width: 420px) {
+  div.fg-widget {
+    width: 160px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  div.fg-widget {
+    margin-bottom: .3em;
   }
 }
