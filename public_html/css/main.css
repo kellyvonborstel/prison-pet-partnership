@@ -545,18 +545,23 @@ h1 {
 
 .announcement h3 {
   font-size: 1.4em;
+  line-height: 1.25em;
   font-weight: 600;
   letter-spacing: 0;
   color: #fff;
 }
 
+.announcement h3.second {
+  margin-top: 25px;
+}
+
 .announcement p {
   font-size: .95em;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .announcement a {
-  font-weight: 400;
+  font-weight: 600;
   color: #fff;
 }
 
