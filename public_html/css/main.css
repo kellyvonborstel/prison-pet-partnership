@@ -827,8 +827,8 @@ img.camille {
 
   .power-paw {
     min-height: 100px;
-    padding-right: 330px;
-    background: url(../images/power-paw.svg) right center;
+    padding-left: 340px;
+    background: url(../images/power-paw.svg) left center;
   }
 
   .bark-bid {
