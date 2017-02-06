@@ -798,6 +798,10 @@ img.bark-bid {
   height: 115px;
 }
 
+img.power-paw {
+  height: 80px;
+}
+
 img.dog-training {
   height: 145px;
 }
@@ -819,6 +823,12 @@ img.camille {
     display: table;
     margin: .2em 0;
     background-repeat: no-repeat;
+  }
+
+  .power-paw {
+    min-height: 100px;
+    padding-right: 330px;
+    background: url(../images/power-paw.svg) right center;
   }
 
   .bark-bid {
@@ -1059,13 +1069,13 @@ p.thank-you {
 }
 
 /*-------------------------------------*/
-/* BARK AND BID PAGE */
+/* POWER OF PAW PAGE */
 
-.bark-bid-announce {
+.power-paw-announce {
   width: 100%;
-  padding-bottom: 64.96063%;
+  padding-bottom: 75%;
   margin-bottom: 2em;
-  background: url(../images/bark-bid-announce.svg) no-repeat center;
+  background: url(../images/power-paw-announce.svg) no-repeat center;
   background-size: contain;
 }
 
@@ -1074,11 +1084,11 @@ p.thank-you {
 }
 
 @media screen and (min-width: 550px) {
-  .bark-bid-announce {
-    padding-bottom: 54.875%;
+  .power-paw-announce {
+    padding-bottom: 65%;
     border: 1px solid #666;
-    background-image: url(../images/bark-bid-announce-dog.svg);
-    background-size: cover;
+    background-image: url(../images/power-paw-announce.svg);
+    background-size: 60%;
   }
 
   .image-divider {
