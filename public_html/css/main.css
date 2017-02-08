@@ -794,12 +794,8 @@ address {
   margin-bottom: .3em;
 }
 
-img.bark-bid {
-  height: 115px;
-}
-
 img.power-paw {
-  height: 80px;
+  height: 68px;
 }
 
 img.dog-training {
@@ -826,15 +822,9 @@ img.camille {
   }
 
   .power-paw {
-    min-height: 100px;
-    padding-left: 340px;
-    background: url(../images/power-paw.svg) left center;
-  }
-
-  .bark-bid {
-    min-height: 220px;
-    padding-right: 330px;
-    background: url(../images/bark-bid-2016.jpg) right center;
+    min-height: 120px;
+    padding-right: 370px;
+    background: url(../images/power-paw-2016.gif) right center;
   }
 
   .dog-training {
