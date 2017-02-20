@@ -806,6 +806,10 @@ img.calendar-2016 {
   height: 115px;
 }
 
+img.tour {
+  height: 115px;
+}
+
 img.camille {
   height: 115px;
 }
@@ -837,6 +841,12 @@ img.camille {
     min-height: 220px;
     padding-right: 285px;
     background: url(../images/camille.jpg) right center;
+  }
+
+  .tour {
+    min-height: 220px;
+    padding-right: 285px;
+    background: url(../images/tour.jpg) right center;
   }
 }
 
