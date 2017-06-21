@@ -2,15 +2,6 @@ $(function() {
 
   addImageHandlers();
 
-  $(".tabs-menu a").click(function(event) {
-    event.preventDefault();
-    $(this).parent().addClass("current");
-    $(this).parent().siblings().removeClass("current");
-    var tab = $(this).attr("href");
-    $(".tab-content").not(tab).css("display", "none");
-    $(tab).fadeIn();
-  });
-
   // change order of sidebar items when window is resized
   $(window).resize(function () {
     var windowWidth = $(window).width();
@@ -39,6 +30,16 @@ $(function() {
     $('.nav-menu').removeClass('active');
     $('.mask').removeClass('active');
     $('.nav-menu-open').disabled = false;
+  });
+
+  // tabbed panels
+  $(".tabs-menu a").click(function(event) {
+    event.preventDefault();
+    $(this).parent().addClass("current");
+    $(this).parent().siblings().removeClass("current");
+    var tab = $(this).attr("href");
+    $(".tab-content").not(tab).css("display", "none");
+    $(tab).fadeIn();
   });
 
   // added the click handler to prevent images from disappearing on ios
