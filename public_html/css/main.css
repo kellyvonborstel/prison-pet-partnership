@@ -436,7 +436,7 @@ h1 {
 
   a.nav-link {
     display: inline;
-    padding: .6em 1em;
+    padding: .6em 1.7em;
     font-size: .85em;
     color: #fff;
     text-decoration: none;
@@ -454,10 +454,6 @@ h1 {
 }
 
 @media screen and (min-width: 1030px) {
-  a.nav-link {
-    padding: .6em 1.7em;
-  }
-
   a.nav-link:hover {
     background-color: #aa0332;
   }
