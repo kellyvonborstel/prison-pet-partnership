@@ -849,6 +849,10 @@ img.tour {
   height: 115px;
 }
 
+img.lynch-creek {
+  height: 91px;
+}
+
 img.camille {
   height: 115px;
 }
@@ -886,6 +890,12 @@ img.camille {
     min-height: 220px;
     padding-right: 285px;
     background: url(../images/tour.jpg) right center;
+  }
+
+  .lynch-creek {
+    min-height: 220px;
+    padding-left: 285px;
+    background: url(../images/lynch-creek.jpg) left center;
   }
 }
 
