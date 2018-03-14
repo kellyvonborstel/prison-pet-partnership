@@ -857,7 +857,7 @@ img.lynch-creek {
   height: 91px;
 }
 
-img.camille {
+img.caitlin {
   height: 115px;
 }
 
@@ -884,10 +884,10 @@ img.camille {
     background: url(../images/dog-training.jpg) left center;
   }
 
-  .camille {
+  .caitlin {
     min-height: 220px;
-    padding-right: 285px;
-    background: url(../images/camille.jpg) right center;
+    padding-left: 285px;
+    background: url(../images/caitlin.jpg) left center;
   }
 
   .tour {
