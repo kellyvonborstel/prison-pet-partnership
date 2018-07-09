@@ -1132,6 +1132,11 @@ p.thank-you {
   background-size: contain;
 }
 
+#power-paw h5 {
+  font-size: 1em;
+  color: #333; !important
+}
+
 .location {
   padding-top: 1em;
 }
