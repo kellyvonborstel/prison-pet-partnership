@@ -1126,9 +1126,10 @@ p.thank-you {
 
 .power-paw-announce {
   width: 100%;
-  padding-bottom: 75%;
+  padding-bottom: 65%;
+  border: 1px solid #666;
   margin-bottom: 2em;
-  background: url(../images/power-paw-announce.svg) no-repeat center;
+  background: url(../images/pop.png) no-repeat center;
   background-size: contain;
 }
 
@@ -1144,9 +1145,8 @@ p.thank-you {
 @media screen and (min-width: 550px) {
   .power-paw-announce {
     padding-bottom: 65%;
-    border: 1px solid #666;
-    background-image: url(../images/power-paw-announce.svg);
-    background-size: 60%;
+    background-image: url(../images/pop.png);
+    background-size: 100%;
   }
 
   .image-divider {
