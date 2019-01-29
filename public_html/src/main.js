@@ -1,7 +1,7 @@
 $(function() {
 
-  $('.announcement-wrapper').hide();
-  $('.announcement-wrapper').fadeIn(2000);
+  // $('.announcement-wrapper').hide();
+  // $('.announcement-wrapper').fadeIn(2000);
 
   addImageHandlers();
 
