@@ -837,9 +837,9 @@ address {
   margin-bottom: .3em;
 }
 
-img.power-paw {
-  height: 68px;
-}
+/*img.potp-2020 {
+  height: 200px;
+}*/
 
 img.dog-training {
   height: 145px;
@@ -872,10 +872,13 @@ img.caitlin {
     background-repeat: no-repeat;
   }
 
-  .power-paw {
-    min-height: 120px;
-    padding-right: 370px;
-    background: url(../images/power-paw-2016.gif) right center;
+  .pop-2020 {
+    width: 100%;
+    padding-bottom: 65%;
+    border: 1px solid #666;
+    margin-bottom: 2em;
+    background: url(../images/potp-2020.png) no-repeat center;
+    background-size: contain;
   }
 
   .dog-training {
