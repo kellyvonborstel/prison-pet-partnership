@@ -167,6 +167,16 @@ ul {
   }
 }
 
+/* COVID-19 */
+#covid {
+  color: #d20b43;
+  font-weight: 800;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
 /*-------------------------------------*/
 /* TABBED PANELS */
 
