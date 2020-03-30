@@ -450,7 +450,7 @@ h1 {
 
   a.nav-link {
     display: inline;
-    padding: .6em 1.7em;
+    /*padding: .6em 1.7em;*/
     font-size: .85em;
     color: #fff;
     text-decoration: none;
