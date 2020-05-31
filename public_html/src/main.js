@@ -70,6 +70,8 @@ $(function() {
     imageHandler('.js-calendar', '../images/calendar-blue-dark.svg', '../images/calendar-blue.svg');
     imageHandler('.js-facebook-home', 'images/facebook-blue-dark.svg', 'images/facebook-blue.svg');
     imageHandler('.js-facebook', '../images/facebook-blue-dark.svg', '../images/facebook-blue.svg');
+    imageHandler('.js-instagram-home', 'images/instagram-blue-dark.svg', 'images/instagram-blue.svg');
+    imageHandler('.js-instagram', '../images/instagram-blue-dark.svg', '../images/instagram-blue.svg');
     imageHandler('.js-twitter-home', 'images/twitter-blue-dark.svg', 'images/twitter-blue.svg');
     imageHandler('.js-twitter', '../images/twitter-blue-dark.svg', '../images/twitter-blue.svg');
     imageHandler('.js-facebook-footer-home', 'images/facebook-red.svg', 'images/facebook-white.svg');
