@@ -296,15 +296,15 @@ h1 {
     display: block;
     float: left;
     width: 14%;
-    margin: 5% 3% 0;
+    margin: 9% 2% 0;
   }
 
   .header-image {
     display: block;
     float: right;
     width: 80%;
-    height: 200px;
-    background: url(../images/header-service-dogs.jpg) no-repeat left;
+    height: 300px;
+    background: url(../images/banner.jpg) no-repeat left;
     background-size: cover;
   }
 
@@ -321,7 +321,7 @@ h1 {
 
 @media screen and (min-width: 1050px) {
   .logo {
-    margin: 4% 3% 0;
+    margin: 8% 3% 0;
   }
 }
 
